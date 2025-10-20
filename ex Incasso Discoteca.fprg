@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex Incasso Discoteca"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-20 01:49:36 "/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtS1UwS0dERE47MjAyNS0xMC0yMDsiMDE6MzE6MjIgIjsyNzAw"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtS1UwS0dERE47MjAyNS0xMC0yMDsiMDE6NDk6MzYgIjsxOzI4MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeroMinorenni" type="Real" array="False" size=""/>
+            <declare name="numeroMaggiorenni" type="Real" array="False" size=""/>
+            <declare name="ragazziTotali" type="Real" array="False" size=""/>
+            <declare name="incassoMinorenni" type="Real" array="False" size=""/>
+            <declare name="incassoMaggiorenni" type="Real" array="False" size=""/>
+            <output expression="&quot;inserisci il numero di minorenni: &quot;" newline="True"/>
+            <input variable="numeroMinorenni"/>
+            <output expression="&quot;Inserisci il numero di maggiorenni : &quot;" newline="True"/>
+            <input variable="numeroMaggiorenni"/>
+            <assign variable="ragazziTotali" expression="numeroMaggiorenni+numeroMinorenni"/>
+            <output expression="&quot;I ragazziTotali sono: &quot;&amp;ragazziTotali" newline="True"/>
+            <input variable="ragazziTotali"/>
+            <output expression="&quot;l'incasso dei minorenni &#232;: &quot;&amp;incassoMinorenni" newline="True"/>
+            <assign variable="incassoMinorenni" expression="numeroMinorenni*15"/>
+            <input variable="incassoMinorenni"/>
+            <output expression="&quot;l'incasso dei maggiorenni &#232;: &quot;&amp;incassoMaggiorenni" newline="True"/>
+            <assign variable="incassoMaggiorenni" expression="numeroMaggiorenni*18"/>
+            <input variable="incassoMaggiorenni"/>
+        </body>
+    </function>
+</flowgorithm>
