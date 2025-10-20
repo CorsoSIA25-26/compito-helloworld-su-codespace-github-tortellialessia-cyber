@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  float baseMinore, baseMaggiore, altezzaT, areaT;
+   cout << "inserire la baseMinore del trapezio" << endl;
+    cin >> baseMinore;
+   cout << "inserire la baseMaggiore del trapezio" << endl;
+    cin >> baseMaggiore;
+   cout << "inserire l'altezzaT del trapezio" << endl;
+    cin >> altezzaT;
+    areaT=((baseMinore+baseMaggiore)*alezzaT)/2
+   cout << "l'area del trapezio e': " <<areaT <<endl;
+}
