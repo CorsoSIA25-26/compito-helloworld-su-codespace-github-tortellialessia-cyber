@@ -1,0 +1,18 @@
+{
+  float nMinorenni, nMaggiorenni, ragazziTotali, incassoMinorenni, incassoMaggiorenni; 
+   cout << "inserire il nMinorenni" <<endl;
+   cin >> nMinorenni;
+   cout << "inserire il nMaggiorenni" <<endl;
+   cin >> nMaggiorenni; 
+  ragazziTotali = nMaggiorenni + nMinorenni
+   cout << "i ragazzi totali sono: " <<ragazziTotali <<endl;
+  incassoMinorenni = nMinorenni*15
+   cout << "l'incasso dei mnorenni e': " <<incassoMinorenni <<endl;
+  incassoMaggiorenni = nMaggiorenni*18
+   cout << "l'incasso dei maggiorenni e': " <<incassoMaggiorenni <<endl
+
+
+
+
+
+}
